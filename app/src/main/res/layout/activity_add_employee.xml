@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Manager.AddEmployee">
+
+        <include
+            android:id="@+id/bar6"
+            layout="@layout/toolbar_design"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/e_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:hint="First Name"/>
+
+            <EditText
+                android:id="@+id/e_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:hint="Last Name"/>
+
+            <EditText
+                android:id="@+id/e_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:hint="Username/Email"/>
+
+            <EditText
+                android:id="@+id/e_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:inputType="textWebPassword"
+                android:singleLine="true"
+                android:hint="Password"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="17sp"/>
+            <RadioGroup
+                android:id="@+id/e_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/e_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:hint="Phone Number"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:inputType="textPostalAddress"
+                android:singleLine="true"
+                android:hint="@string/address"/>
+
+            <EditText
+                android:id="@+id/e_joindate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:hint="@string/joining_date"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/e_dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:hint="Department"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/e_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:hint="Salary"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/e_leaves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:hint="Leaves"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/add_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:defaultFocusHighlightEnabled="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Add Employee"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

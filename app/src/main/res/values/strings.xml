@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LMS</string>
+    <string name="username">Enter username or email</string>
+    <string name="pwd">Enter Password</string>
+    <string name="ManagerPanel">Manager Panel</string>
+    <string name="EmployeePanel">Employee Panel</string>
+    <string name="view_employees">View Employees</string>
+    <string name="evaluate_leave_request">Evaluate Leave Request</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="request_leave">Request Leave</string>
+    <string name="status_of_request">Status of Request</string>
+    <string name="log_out">Log out</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="manage_employees">Manage Employees</string>
+    <string name="name">Name</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="address">Address</string>
+</resources>

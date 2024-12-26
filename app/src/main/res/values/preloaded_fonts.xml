@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/almendra_bold</item>
+        <item>@font/amiko</item>
+        <item>@font/andika</item>
+        <item>@font/bangers</item>
+        <item>@font/lato</item>
+        <item>@font/lato_black</item>
+        <item>@font/lato_thin</item>
+    </array>
+</resources>

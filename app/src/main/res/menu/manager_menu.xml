@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/manage_employees"
+        android:title="@string/manage_employees">
+        <menu>
+            <item
+                android:id="@+id/add_employee"
+                android:title="@string/add_employee"
+                android:icon="@drawable/icon_add_employee"/>
+            <item
+                android:id="@+id/view_employee"
+                android:title="@string/view_employees"
+                android:icon="@drawable/icon_view_employees"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/m_evalLeaveRequest"
+        android:title="@string/evaluate_leave_request"/>
+    <item
+        android:id="@+id/m_logout"
+        android:title="@string/log_out"/>
+</menu>
