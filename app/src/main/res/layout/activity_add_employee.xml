@@ -105,6 +105,15 @@
                 android:inputType="textPostalAddress"
                 android:singleLine="true"
                 android:hint="@string/address"/
+            <EditText
+                android:id="@+id/address2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:inputType="textPostalAddress"
+                android:singleLine="true"
+                android:hint="@string/address"/
 
             <EditText
                 android:id="@+id/e_joindate"
