@@ -106,7 +106,7 @@
                 android:singleLine="true"
                 android:hint="@string/address"/
             <EditText
-                android:id="@+id/addressh"
+                android:id="@+id/addresss"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
