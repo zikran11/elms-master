@@ -104,7 +104,7 @@
                 android:textSize="16sp"
                 android:inputType="textPostalAddress"
                 android:singleLine="true"
-                android:hint="@string/address"/
+                android:hint="@string/address"/>
             <EditText
                 android:id="@+id/address"
                 android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                 android:textSize="16sp"
                 android:inputType="textPostalAddress"
                 android:singleLine="true"
-                android:hint="@string/address"/
+                android:hint="@string/address"/>
 
             <EditText
                 android:id="@+id/e_joindate"
